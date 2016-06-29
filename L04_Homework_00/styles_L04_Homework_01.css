@@ -1,0 +1,144 @@
+
+/*start reset session
+*//* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*end reset session
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, section, footer, aside, nav, article, figure {
+    display: block;
+}
+
+body {
+    font-family: Times,Geneva,sans-serif;
+    font-size: 14px;
+    background-color: white;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Times, serif;
+    font-weight: normal;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+main {
+    background-color: #FFF;
+    text-align: left;
+    padding: 20px;
+    width: 920px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    border: 3px solid #ff00ff;
+   
+}
+
+header {
+    background-color: #CF0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+aside {
+    background-color: #CF9;
+    float: left;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+aside h1 {
+    font-size: 26px;
+}
+
+aside h2 {
+    font-size: 20px;
+}
+
+aside nav ul {
+    list-style-type: none;
+}
+
+article {
+    border: solid 1px #CF9;
+    float: left;
+    width: 658px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+article h1 {
+    font-size: 26px;
+}
+
+footer {
+    background-color: #CF0;
+    padding: 10px;
+    clear: left;
+}
+
+footer p {
+    margin: 0px;
+}

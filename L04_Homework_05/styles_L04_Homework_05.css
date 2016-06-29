@@ -1,0 +1,124 @@
+/*start reset session
+*//* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*end reset session
+*/
+
+
+div {
+    font-family: verdana,sans-serif;
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px;
+  }
+
+
+.first-row{background-color:#D8D8D8;
+        text-align: left;
+        font-weight: bold;
+        font-size: 19px;
+        vertical-align: middle;
+        height: 33px;
+}
+
+.footer{background-color: #3973ac;
+        font-weight: bold;
+        text-align: right; 
+        padding-right: 15px;
+        height: 33px;
+}
+
+.row-2{background-color:#b3d9ff;
+       font-weight: bold;
+       text-align: left;
+       border: 1px solid black;
+}
+
+.row-extra-2{
+  width: 190px;
+  height: 55px;
+}
+
+.col-a{background-color:#79a6d2;
+       font-weight: bold;
+       text-align: left;
+       border: 1px solid black;
+       height: 35px;
+
+}
+
+.row-a{background-color:#B0B0B0;
+       font-weight: lighter;
+       text-align: left;
+       border: 1px solid black;
+}
+
+.row-b{background-color:#D8D8D8;
+       font-weight: lighter;
+       text-align: left;
+       border: 1px solid black;
+}
+
+table{border:1px solid black;
+       /*width: 500px;
+       height: 300px;*/
+       text-align: left;
+       vertical-align: middle;
+}
+
+th, td{vertical-align: middle;
+       padding-left: 15px;
+       padding-right: 15px;
+       
+}
+
+
+
+
