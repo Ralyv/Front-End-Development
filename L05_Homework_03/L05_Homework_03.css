@@ -1,0 +1,19 @@
+.column-span {
+    -webkit-column-span: 1;
+    column-span: 1;
+    color: black;
+    text-shadow: 3px 3px 5px purple;
+}
+
+.multiple-columns {
+	-webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 100px;
+    -moz-column-gap: 100px;
+    column-gap: 100px;
+
+    -webkit-column-rule: 5px solid orange;
+    -moz-column-rule: 5px solid orange;
+    column-rule: 5px solid orange;
+}
