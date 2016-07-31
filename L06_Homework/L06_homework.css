@@ -1,0 +1,100 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*END RESET*/
+main {
+  width: 942px;
+  margin: 0 auto; }
+
+div {
+  width: 100%;
+  text-align: center;
+  color: #005b88; }
+  div h1, div h2 {
+    font-weight: bold; }
+  div h1 {
+    font-size: 30px;
+    margin: 28px; }
+  div h2 {
+    font-size: 23px;
+    margin-top: 28px;
+    margin-bottom: 21px; }
+  div button {
+    background-color: #005b88;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none; }
+
+table {
+  width: 100%; }
+
+thead {
+  width: 100%;
+  background-color: #008cd2;
+  color: white;
+  font-weight: bold; }
+  thead tr {
+    border: 1px solid #005b88; }
+  thead th {
+    padding: 5px 30px; }
+
+tbody {
+  width: 100%;
+  border: 1px solid #005b88; }
+  tbody td {
+    padding: 15px;
+    vertical-align: middle; }
+  tbody img {
+    max-width: 100%; }
+  tbody .tbodyRowFirst, tbody .tbodyRowThird, tbody .tbodyRowSecond {
+    height: 140px; }
+  tbody .tbodyRowFirst, tbody .tbodyRowThird {
+    background-color: #bbe8ff;
+    color: #008cd2; }
+  tbody .tbodyRowSecond {
+    background-color: #008cd2;
+    color: white; }
+
+/*# sourceMappingURL=L06_homework.css.map */
